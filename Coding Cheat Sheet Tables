@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding Cheatsheet</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="banner">
+    <h1 align="center">HTML Tables</h1>
+    </div>
+    <br>
+    <div class="HTML Table Tags">
+      <table border="1" align="center">
+        <caption id="caption">HTML Table Tags</caption>
+        <thead>
+          <tr>
+            <th>Tags</th>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;table&gt;...&lt;/table&gt;</td>
+            <td>table</td>
+            <td>define a table</td>
+          </tr>
+          <tr>
+            <td>&lt;tr&gt;...&lt;/tr&gt;</td>
+            <td>table row</td>
+            <td>define a row</td>
+          </tr>
+          <tr>
+            <td>&lt;th&gt;...&lt;/th&gt;</td>
+            <td>table header</td>
+            <td>define a header cell</td>
+          </tr>
+          <tr>
+            <td>&lt;td&gt;...&lt;/td&gt;</td>
+            <td>table data</td>
+            <td>define the data in a cell</td>
+          </tr>
+          <tr>
+            <td>&lt;thead&gt;...&lt;/thead&gt;</td>
+            <td>table head</td>
+            <td>group header content</td>
+          </tr>
+          <tr>
+            <td>&lt;tbody&gt;...&lt;tbody&gt;</td>
+            <td>table body</td>
+            <td>group body content</td>
+          </tr>
+          <tr>
+            <td>&lt;tfoot&gt;...&lt;tfoot&gt;</td>
+            <td>table foot</td>
+            <td>group footer content</td>
+          </tr>
+          <tr>
+            <td>&lt;caption&gt;...&lt;/caption&gt;</td>
+            <td>table caption</td>
+            <td>writes a caption for the table
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br>
+    <br>
+    <div class="HTML Table Attributes">
+      <table border="1" align="center">
+        <caption id='caption2'>HTML Table Attributes</caption>
+        <thead>
+          <tr>
+            <th>Table Attributes</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Possible Values</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>&lt;table align"="&gt;...&lt;/table&gt;</td>
+            <td>table align</td>
+            <td>aligns table</td>
+            <td>left, centre, right</td>
+          </tr>
+          <tr>
+            <td>&lt;table border=""&gt;...&lt;/table&gt;</td>
+            <td>table border</td>
+            <td>creates border or not</td>
+            <td>0,1</td>
+          </tr>
+          <tr>
+            <td>&lt;table colspan=""&gt;...&lt;/table&gt;</td>
+            <td>table column span</td>
+            <td>defines # of columns a table element should span</td>
+            <td>1...x</td>
+          </tr>
+          <tr>
+            <td>&lt;table rowspan=""&gt;...&lt;/table&gt;</td>
+            <td>table rowspan</td>
+            <td>defiines # of rows a table element should span</td>
+            <td>1...x</td>
+          </tr>
+          <tr>
+            <td>&lt;table cellpadding""&gt;...&lt;/table&gt;</td>
+            <td>table cell padding</td>
+            <td>defines space between cell contents and its' borders</td>
+            <td>px, default=1px</td>
+          </tr>
+          <tr>
+            <td>&lt;table cellspacing""&gt;...&lt;/table&gt;</td>
+            <td>table cell spacing</td>
+            <td>defines the space between cells</td>
+            <td>px, default=2px</td>
+          </tr>
+          <tr>
+            <td>&lt;table nowrap""&gt;...&lt;/table&gt;</td>
+            <td>no line breaks</td>
+            <td>content inside a cell should not wrap</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
